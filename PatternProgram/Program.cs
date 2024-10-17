@@ -71,37 +71,33 @@ namespace PatternProgram
             //1
 
 
-            int h = 1;
-            for (int i = 1; i <= 5; i++)
-            {
-                for (int j = 1; j <= i; j++)
-                {
-                    Console.Write(j);
-                }
-                for(int k = 1; k < h; k++)
-                {
-                    Console.Write(k);
-                }
-                h++;
-                Console.WriteLine();
-               
-            }
-            
-
-            //int d = 3;
-            //for(int i = 4; i >= 1; i--)
+            //for (int i = 1; i <= 5; i++)
             //{
-            //    for(int j = 1; j <= i; j++)
+            //    for (int j = 1; j <= i; j++)
             //    {
             //        Console.Write(j);
             //    }
-            //    for(int k = d; k >=1; k--)
+            //    for(int k = i-1; k >=1; k--)
+            //    {
+            //        Console.Write(k);
+            //    }
+
+            //    Console.WriteLine();
+            //}
+
+            //for (int i = 4; i >= 1; i--)
+            //{
+            //    for (int j = 1; j <=i; j++)
+            //    {
+            //        Console.Write(j);
+            //    }
+            //    for (int k = i-1; k >= 1; k--)
             //    {
             //        Console.Write(k);
             //    }
             //    Console.WriteLine();
             //}
-            //d--;
+
 
 
             //4)
@@ -270,6 +266,12 @@ namespace PatternProgram
             //    Examples
             //    832 ➞ 594
             //    51 ➞ 36
+
+            //Console.WriteLine("Enter number");
+            //int num = Convert.ToInt32(Console.ReadLine());
+
+
+              
 
 
 
